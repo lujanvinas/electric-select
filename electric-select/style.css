@@ -158,16 +158,19 @@ li{
     float:left;
     text-align: right;
     padding-left:30px;
-   
 
 }
 
+#hamburger{
+    display:none;
+}
 
 .nav a:hover,
 .nav a:focus{
     border-bottom:1px solid #1F2022;
 
 }
+
 
 .header p{
     font-size: 3.5rem;
@@ -180,7 +183,7 @@ li{
     position:absolute;
     right:30px;
     top:130px;
-    z-index: 100;
+    z-index: 999;
 }
 
 .socialMedia a{
@@ -258,16 +261,20 @@ li{
     background-color:#F0F5FF ;
 }
 
-
+.top,
+.bottom{
+    width: 100%;
+}
 
 .text{
     width: 50%;
-    padding:7% 6% 7% 8%;
+    padding:7% 6% 7% 7%;
     float:left;
+    height:70vh;
 }
 
 .text h2{
-    width: 50%;
+    width: 90%;
     margin-bottom: 20px;
 }
 
@@ -291,7 +298,7 @@ li{
 
 
 .bottom .text {
-    padding:7% 8% 7% 6%;
+    padding:7% 7% 7% 6%;
 }
 
 /* section-three */
@@ -320,7 +327,7 @@ li{
 
 .bar li{
     text-align: center;
-    padding:20px 120px;
+    padding:20px 0;
     display: inline-block;
     width: 33.3333%;
     
@@ -382,6 +389,7 @@ footer h4{
     float:left;
 }
 
+
 .email button{
     margin:0;
     float:left;
@@ -422,7 +430,7 @@ footer h4{
     clear:both;
     width:100%;
     text-align: center;
-    padding:20px;
+    padding:15px;
     background-color: #042259;
     color:#FFFFFF;
 }
@@ -438,4 +446,401 @@ footer h4{
     }
 
 
+    .mokaImage{
+        width: 30%;
+    
+    }
+    
+    .mokaTexbox{
+        width: 70%;
+    }
+
+    .text{
+    padding:5% 3% 4% 3%;
+
+    }
+
+    .text h2{
+        width: 80%;
+    }
+
+    .bottom .text {
+        padding:5% 3% 4% 3%;
+    }
+
+    .stay-updated{
+        text-align: center;
+    }
+
+    .email input {
+        width: 100%;
+    }
+
+    .email button{
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 1170px){
+    
+    /* html{
+        font-size: 60%;
+        
+    } */
+    
+    .mokaImage{
+        width: 50%;
+    
+    }
+    
+    .mokaTexbox{
+        width: 50%;
+    }
+
+    .text h2{
+        width: 90%;
+    }
+
+
+    /* footer     */
+
+    footer .wrapper{
+        width: 70%;
+        padding:40px 0;
+
+    }
+    .stay-updated{
+        width: 100%;
+        float:none;
+        margin:0;
+        padding:30px 0;
+    }
+    
+    .email input {
+        width: 75%;
+    }
+
+    .email button{
+        width: 25%;
+    }
+    
+    .contact,
+    .menu-right{
+        width:50%;
+        margin:0;
+        padding:60px;
+    }
+
+    .contact{
+        padding-left:0;
+        padding-bottom: 0;
+    }
+
+    .menu-right{
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+
+
+@media (max-width: 1024px){
+
+    .mokaImage{
+        width: 100%;
+        float:none;
+    
+    }
+    
+    .mokaTexbox{
+        width: 100%;
+        float:none;
+        position:relative;
+        
+    }
+
+    .mokaTextbox h2{
+        text-align: center;
+        margin:20px 0;
+    }
+
+    .mokaTextbox p{
+        margin:20px 0;
+    }
+
+
+    .mokaTextbox button{
+        position:absolute;
+        right:45%;
+        color:#FFFFFF;
+        background-color: #042259;
+        
+    }
+
+        /* section-two */
+        
+    .section-two{
+        background-color: #FCDDE2;
+    }
+    .top .text{
+        margin-bottom: 70px;
+    }
+    .bottom{
+        padding-bottom: 70px;
+    }    
+    .text{
+        width: 100%;
+        float:none;
+        height:auto;
+        position:relative;
+
+    }
+
+    .text h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .text button{
+        position:absolute;
+        right:45%;
+        color:#FFFFFF;
+        background-color: #042259;
+    }
+
+    /* smoothies  */
+
+
+    .smoothiesImage{
+        width: 100%;
+        
+        
+    }
+
+
+    /* kitchen */
+
+    .kitchenImage{
+        float:none;
+        width:100%;
+    }
+
+
+    /* section-three */
+
+    .section-three{
+        background-color: #F5C8CF;
+    }
+
+}
+
+
+@media (max-width: 768px){
+
+.header .title{
+width: 60%;
+}
+
+.header h1{
+font-size:8rem;
+line-height: 70px;
+}
+
+.header p{
+    font-size: 3rem;
+}
+
+
+footer .wrapper{
+width: 90%;
+padding:40px 0;
+}
+
+
+}
+
+
+@media (max-width: 580px){
+
+.wrapper{
+    width: 90%;
+}
+
+
+
+.section-one,
+.section-two {
+padding-bottom: 100px;
+}
+
+
+h2{
+font-size: 3.8rem;
+padding:20px;
+}
+
+.header{
+height: 850px;
+}
+
+.title{
+width: 100%;
+position: absolute;
+top: 160px;
+}    
+
+.appliances img {
+width: 75vw;
+}
+
+
+.nav,
+.socialMedia{
+display:none;
+}
+
+#hamburger{
+display: block;
+position: absolute;
+right: 30px;
+top: 30px;
+font-size: 3.5rem;
+width: 100%;
+text-align: right;
+
+}
+
+.box {
+float: none;
+width: 100%;
+margin-bottom: 30px;
+}
+
+.mokaTextbox button,
+.text button {
+right: 40%;
+}
+
+
+.bar {
+float: none;
+width: 100%;
+margin: 0 auto;
+}
+
+.bar li {
+    width: 100%;
+}
+
+
+.email input{
+width: 90%;
+float:none;
+margin-bottom: 10px;
+}
+
+.email button{
+float:none;
+width:60%;
+}
+
+.contact,
+.menu-right{
+padding-top: 30px;
+}
+
+
+
+
+@media (max-width: 450px){
+
+
+.header{
+height: 750px;
+}
+
+.title{
+top: 130px;
+}    
+
+.title h1{
+    font-size: 6.8rem;
+    line-height: 70px;
+}
+
+.title p{
+    font-size: 2.5rem;
+    padding-top:0;
+}
+
+.appliances img {
+    width: 80vw;
+}
+
+.mokaTextbox button, 
+.text button {
+right: 35%;
+}
+
+.top .text {
+margin-bottom: 130px;
+}
+
+.section-one,
+.section-two {
+padding-bottom: 70px;
+}
+
+.contact, 
+.menu-right {
+padding: 30px;
+}
+
+.menu-right{
+padding-right: 0;
+}
+
+.contact{
+padding-left: 0;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+@media (max-width: 450px){
+
+
+#hamburger {
+display: block;
+position: absolute;
+right: 15px;
+top: 20px;
+
+}
+
+
+.header .title{
+    width:100%;
+}
+
+
+.title h1 {
+    font-size: 5.5rem;
+    line-height: 50px;
+}
+
+.title p {
+font-size: 2rem;
+}
+
+}
+
+@media (max-width: 320px){
+
+.mokaTextbox button,
+ .text button {
+    right: 30%;
+}
 }
