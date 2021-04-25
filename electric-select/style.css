@@ -46,7 +46,7 @@ button{
     margin:0;
 }
 
-.readMore{
+button{
     padding:10px;
     color:#042259;
     font-size: 2rem;
@@ -386,10 +386,11 @@ footer h4{
     border:1px solid #FCDDE2; 
     margin:0;
     float:left;
+    padding: 10px;
 }
 
 
-.email button{
+.subscribe{
     margin:0;
     float:left;
 }
@@ -475,7 +476,7 @@ footer h4{
         width: 100%;
     }
 
-    .email button{
+    .subscribe{
         width: 100%;
     }
 
@@ -517,7 +518,7 @@ footer h4{
         width: 75%;
     }
 
-    .email button{
+    .subscribe{
         width: 25%;
     }
     
@@ -728,7 +729,7 @@ footer h4{
     margin-bottom: 10px;
     }
 
-    .email button{
+    .subscribe{
     float:none;
     width:60%;
     }
